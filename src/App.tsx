@@ -1,8 +1,15 @@
 import { FC } from 'react';
 import './App.css';
+import { Header, Main, Footer } from './components';
 
 const App: FC = () => {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
 };
 
 export default App;
