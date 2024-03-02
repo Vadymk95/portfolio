@@ -1,5 +1,6 @@
 import { FC } from 'react';
+import './Main.scss';
 
 export const Main: FC = () => {
-  return <main>Main</main>;
+  return <main className='main'>Main</main>;
 };

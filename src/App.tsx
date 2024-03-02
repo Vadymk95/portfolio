@@ -4,11 +4,11 @@ import { Header, Main, Footer } from './components';
 
 const App: FC = () => {
   return (
-    <>
+    <div className='app'>
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 };
 
