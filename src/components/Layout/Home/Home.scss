@@ -6,13 +6,10 @@
   padding-top: 20px !important;
 
   &__text-container {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     max-width: 450px;
     color: var(--txt-w);
-    text-align: left;
     gap: 3rem;
   }
 
@@ -37,5 +34,6 @@
 
   &__img {
     width: 100%;
+    box-shadow: var(--shadow);
   }
 }
