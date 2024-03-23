@@ -1,2 +1,16 @@
 .home {
+  &__text-container {
+    max-width: 450px;
+    color: var(--txt-w);
+    text-align: left;
+  }
+
+  &__title {
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__subtitle {
+    line-height: 2rem;
+  }
 }
