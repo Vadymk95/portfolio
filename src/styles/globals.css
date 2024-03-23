@@ -19,10 +19,10 @@ body {
   font-family: var(--ff);
   font-size: var(--fs-normal);
   color: var(--txt-w);
+  background: linear-gradient(to bottom, var(--secondary), #f8f9fa);
 }
 
 .header-footer {
-  background: linear-gradient(to right, var(--primary), var(--secondary));
   color: var(--txt-w);
   padding: var(--default-padding);
   box-shadow: var(--shadow);

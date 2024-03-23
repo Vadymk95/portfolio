@@ -10,7 +10,13 @@ export const Header: FC = () => {
 
   return (
     <header className="header header-footer">
-      <Link to={Links.home.target} smooth duration={500} className="logo">
+      <Link
+        to={Links.home.target}
+        smooth
+        offset={-88}
+        duration={600}
+        className="logo"
+      >
         <img src={logo} alt="Logo" className="logo-img" />
       </Link>
       <ul className="nav-links">
