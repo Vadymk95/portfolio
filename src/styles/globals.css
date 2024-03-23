@@ -11,15 +11,15 @@
   --txt-w: #fff;
 
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-  --default-padding: 20px;
+  --nav-height: 108px;
+  --default-padding: 20px 40px;
 }
 
 body {
   font-family: var(--ff);
   font-size: var(--fs-normal);
   color: var(--txt-w);
-  background: linear-gradient(to bottom, var(--secondary), #f8f9fa);
+  background: linear-gradient(to bottom, var(--secondary), var(--bg-light));
 }
 
 .header-footer {
@@ -29,13 +29,14 @@ body {
 }
 
 .section {
-  height: 100vh;
+  height: calc(100vh - var(--nav-height));
   padding: var(--default-padding);
+  padding-top: var(--nav-height);
 }
 
 .wix-madefor {
   font-family: 'Wix Madefor Display', sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: var(--fw-normal);
   font-style: normal;
 }
