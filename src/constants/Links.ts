@@ -1,7 +1,7 @@
-export const Links = [
-  { name: 'Home', target: 'home' },
-  { name: 'About', target: 'about' },
-  { name: 'Portfolio', target: 'portfolio' },
-  { name: 'Work', target: 'work' },
-  { name: 'FAQ', target: 'faq' },
-];
+export const Links = {
+  home: { name: 'Home', target: 'home' },
+  about: { name: 'About', target: 'about' },
+  portfolio: { name: 'Portfolio', target: 'portfolio' },
+  work: { name: 'Work', target: 'work' },
+  faq: { name: 'FAQ', target: 'faq' },
+};

@@ -27,3 +27,8 @@ body {
   padding: var(--default-padding);
   box-shadow: var(--shadow);
 }
+
+.section {
+  height: 100vh;
+  padding: var(--default-padding);
+}

@@ -1,6 +1,10 @@
 @import '@/styles/mixins.scss';
 
 .header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   @include flex-center-space-between;
 }
 
@@ -19,9 +23,9 @@
     text-decoration: underline;
   }
 
-    &:active {
-        color: var(--primary);
-    }
+  &:active {
+    color: var(--primary);
+  }
 }
 
 .logo {
