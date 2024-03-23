@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Link } from 'react-scroll';
-import logo from '@/assets/images/logo.png';
 import { Links } from '@/constants';
+import logo from '@/assets/images/logo.png';
 
 import './Header.scss';
 
