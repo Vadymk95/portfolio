@@ -15,7 +15,7 @@
   --txt-w: #fff;
 
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --nav-height: 108px;
+  --nav-height: 88px;
   --default-padding: 20px 40px;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .section {
   height: calc(100vh - var(--nav-height));
-  padding: var(--default-padding);
+  padding: var(--default-padding) 0;
   padding-top: var(--nav-height);
 }
 
