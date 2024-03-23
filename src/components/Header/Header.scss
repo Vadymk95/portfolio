@@ -1,5 +1,7 @@
+@import '@/styles/mixins.scss';
+
 .header {
-  display: var(--flex-btw-center);
+  @include flex-center-space-between;
 }
 
 .nav-links {
@@ -11,6 +13,15 @@
 .nav-links a {
   text-decoration: none;
   color: var(--txt-w);
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+    &:active {
+        color: var(--primary);
+    }
 }
 
 .logo {
