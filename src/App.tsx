@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import '@/App.css';
+import '@/App.scss';
 import { Header, Main, Footer } from '@/components';
 
 const App: FC = () => {

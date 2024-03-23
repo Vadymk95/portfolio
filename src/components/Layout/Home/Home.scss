@@ -19,4 +19,8 @@
   &__subtitle {
     line-height: 2rem;
   }
+
+  &__button {
+    @include fancy-btn;
+  }
 }

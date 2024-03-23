@@ -14,6 +14,8 @@ export const Home: FC = () => {
           Welcome to my personal portfolio showcasing years of experience in
           frontend technologies, innovative projects
         </p>
+
+        <button className="home__button">Explore My Work</button>
       </div>
     </section>
   );
